@@ -7,6 +7,17 @@ import { KCDShop } from './kcdshop.tsx'
 // - type: 'image/svg+xml'
 // - href: '/favicon.svg'
 
+export const links: LinksFunction = () => {
+	return [
+		{
+			rel: 'icon',
+			type: 'image/svg+xml'
+			, href:"/favicon.svg
+		},
+	]
+}
+
+
 export default function App() {
 	return (
 		<html lang="en">
